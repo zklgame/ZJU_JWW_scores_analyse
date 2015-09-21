@@ -1,0 +1,61 @@
+<include file='Public:header'/>
+<input id='akey' hidden value="{$key}" />
+
+    <div>
+        <span class="label label-primary">学分</span>
+        <span class="label label-info">{$now_credits}</span>
+        <span class="label label-primary">绩点</span>
+        <span class="label label-danger">{$avg_point}</span>
+        <span class="label label-primary">有效学分</span>
+        <span class="label label-success">{$valid_credits}</span>
+    </div>
+                    
+    <h2 class="sub-header">课程列表</h2>
+    <div class="table-responsive" id="table_div">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>课程代码</th>
+                    <th>课程名称</th>
+                    <th>课程类别</th>
+                    <th>修读年份</th>
+                    <th>修读学期</th>
+                    <th>学分</th>
+                    <th>成绩</th>
+                    <th>绩点</th>
+                    <th>修读次数</th>   
+                    <th>备注</th>                                    
+                </tr>
+            </thead>
+            <tbody>
+                <volist name='scores_list' id='val'>
+                    <tr>
+                        <td><a href="{:U('Gpa/edit_score', array('id' => $val['id'], 'key' => $another_key))}">{$val.course_id}</a></td>
+                        <td>{$val.name}</td>
+                        <td>{$val.type}</td>
+                        <td>{$val.year}</td>
+                        <td>{$val.semester}</td>                                        
+                        <td>{$val.credit}</td>
+                        <td>{$val.score}</td>
+                        <td>{$val.point}</td>
+                        <td>{$val.re_time}</td>                                                                                
+                        <td>{$val.comment}</td>
+                    </tr>
+                </volist>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id='scores_list_upload' class='gpa_box'>
+        <div class="jumbotron">
+            <h1>批量上传</h1>
+            <p class="lead"><a href="{$PUBLIC_DIR}/scores.zip">上传文件示例</a></p>
+            <form action="{:U('Gpa/scores_list_upload')}" enctype="multipart/form-data" method="post" >
+                <input type="file" name="scores_list" class="gpa_align"/>
+                <input type="submit" value="提交">
+                <input id="cancle_scores_list_upload" type="button" value="取消">
+            </form>
+        </div>
+    </div>
+
+<include file='Public:footer'/>

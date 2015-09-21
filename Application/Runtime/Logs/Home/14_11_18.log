@@ -1,0 +1,461 @@
+[ 2014-11-18T16:30:02+08:00 ] 127.0.0.1 /~zklgame/Application/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2014-11-18T16:30:04+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: key /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 6 行.
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0075s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-11-18T16:30:04+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: key /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 6 行.
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0007s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-11-18T16:30:07+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0006s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2014-11-18T16:30:07+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-11-18T16:30:08+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/1000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 100000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0011s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2014-11-18T16:30:08+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/1000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 100000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2014-11-18T16:30:09+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/3000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 300000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2014-11-18T16:30:09+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/3000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 300000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-11-18T16:30:10+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/2000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 200000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2014-11-18T16:30:10+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/2000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 200000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-11-18T16:30:11+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/1000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 100000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2014-11-18T16:30:13+08:00 ] 127.0.0.1 /~zklgame/Application/index.php?s=/Home/Gpa/calculator/key/3000.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `course_type` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `courses` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `scores` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `semesters` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `courses` INNER JOIN scores ON courses.id = scores.course_id  WHERE ( type = 300000 ) ORDER BY year, semester, type, type2  [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 12 行.
+NOTIC: [2] Division by zero /Users/zklgame/Sites/Application/Application/Home/Controller/GpaController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: key /Users/zklgame/Sites/Application/Application/Runtime/Cache/Home/452a81915dd533c1e2f1f449f6bdff22.php 第 109 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+

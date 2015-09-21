@@ -1,0 +1,57 @@
+.gpa_box {
+    z-index: 1003; 
+    top: 30%; 
+    left: 35%;
+    position: fixed; 
+    background-color: #fff; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    display: none;
+    text-align: center;
+}
+
+.gpa_align {
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 10px;
+}
+
+.edit_header {
+    border-bottom-color: rgb(229, 229, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.a-red {
+    color: white;
+}
+.a-red:hover {
+    color: rgb(255, 216, 183);
+}
+
+.form-edit-left {
+    margin-left: -53px;
+    width: 180px;
+}
+.form-edit-right {
+    margin-left: -480px;
+    width: 350px;
+}
+.form-edit-left span{
+    font-size: 150%;
+}
+.form-edit-right input{
+  width: 300px;
+}
+.form-edit-right select{
+  width: 300px;
+}
+.form-edit-left li{
+    height: 40px;
+}
+.form-edit-right li{
+    height: 40px;
+}
+.form-edit-btn {
+    width: 345px;
+    margin-left: 50px;
+}

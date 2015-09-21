@@ -1,0 +1,22 @@
+[ 2014-10-28T20:37:27+08:00 ] ::1 /~zklgame/application/index.php?s=/Home/Gpa/calculator/key/3001.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2014-10-28T20:39:11+08:00 ] ::1 /~zklgame/application/index.php?s=/Home/Gpa/calculator/key/3001.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/zklgame/Sites/Application/Application/Home/Controller/BaseController.class.php:26) /Users/zklgame/Sites/Application/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+

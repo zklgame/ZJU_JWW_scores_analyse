@@ -1,0 +1,56 @@
+<include file='Public:header'/>
+    <div class="container">
+        <div class="edit_header">
+            <ul class="nav nav-pills pull-right" role="tablist">
+                <button type="button" class="btn btn-primary"><a class="a-red" href="{:U('Gpa/calculator', array('key' => $keyss))}">返回</a></button>
+            </ul>
+            <h3 class="text-muted">课程信息修改</h3>
+        </div>
+            <form action="{:U('Gpa/edit_score2')}" method='post'>
+                <h2>{$course_name}</h2>
+                <div class="col-lg-6">
+                    <ul type="none" class="form-edit-left">
+                        <li>
+                            <span class="label label-success">课程类型</span>
+                        </li>
+                        <li>
+                            <span class="label label-success">学期</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul type="none" class="form-edit-right">
+                        <li>
+                            <select name='course_type_id'>
+                                <volist name="course_type" id="val">
+                                    <if condition="$now_course_type eq $val['id']">
+                                        <option value="{$val.id}" selected="true">{$val.type}</option>
+                                        <else />
+                                        <option value="{$val.id}">{$val.type}</option>
+                                    </if>
+                                </volist>
+                            </select>
+                        </li>
+                        <li>
+                            <select name='semester_type_id'>
+                                <volist name="semester_type" id="val">
+                                    <if condition="$now_semester_type eq $val['id']">
+                                        <option value="{$val.id}" selected="true">{$val.type}</option>
+                                        <else />
+                                        <option value="{$val.id}">{$val.type}</option>
+                                    </if>
+                                </volist>
+                            </select>                     
+                        </li>
+                    </ul>
+                </div>
+                <input name='id' value='{$id}' hidden />
+                <input name='key' value='{$keyss}' hidden />                
+                <button class="btn  btn-primary btn-block form-edit-btn" type="submit">确认修改</button>
+            </form>
+        <div>
+            
+        </div>
+    </div>
+
+<include file='Public:footer'/>
